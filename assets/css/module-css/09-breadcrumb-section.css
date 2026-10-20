@@ -49,8 +49,8 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgb(31, 58, 43);
-    background: linear-gradient(180deg, rgba(31, 58, 43, 1) 0%, rgba(31, 58, 43, 0) 95%);
+    background: rgb(78, 52, 46);
+    background: linear-gradient(180deg, rgba(78, 52, 46, 1) 0%, rgba(78, 52, 46, 0) 95%);
 }
 
 .breadcrumb-style1 .inner-content {

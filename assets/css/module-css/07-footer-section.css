@@ -386,7 +386,7 @@
     position: relative;
     display: block;
     background-color: var(--thm-black-bg);
-    border-top: 1px solid #2c4a38;
+    border-top: 1px solid #664a44;
     padding: 23px 0px 23px;
 }
 
@@ -798,7 +798,7 @@
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     border: none;
-    border-bottom: 1px solid #d6e0cf;
+    border-bottom: 1px solid #e1dcc7;
     width: 100%;
     height: 48px;
     color: var(--thm-body-font-color);
@@ -1516,7 +1516,7 @@
     right: 0;
     bottom: 0;
     height: 1px;
-    background-color: #2c4a38;
+    background-color: #664a44;
 }
 
 .footer-maiddle__content {
@@ -1527,7 +1527,7 @@
     width: 570px;
     border-radius: 45px;
     background-color: var(--thm-black-bg);
-    border: 1px solid #2c4a38;
+    border: 1px solid #664a44;
     margin: 0px auto 0px;
     padding: 19px 48px 19px;
 }
@@ -1536,7 +1536,7 @@
     position: relative;
     display: block;
     padding-right: 32px;
-    border-right: 1px solid #2c4a38;
+    border-right: 1px solid #664a44;
 }
 
 .footer-logo-style3 a {
@@ -1677,7 +1677,7 @@
     width: 54px;
     height: 54px;
     border-radius: 50%;
-    background-color: #2c4a38;
+    background-color: #664a44;
     color: var(--thm-white);
     font-size: 18px;
     line-height: 0;
@@ -1920,7 +1920,7 @@
     width: 170px;
     background-color: var(--thm-primary-color);
     text-align: center;
-    border: 2px dashed #24402f;
+    border: 2px dashed #583b35;
     padding: 23px 0 25px;
     border-radius: 10px;
 }
@@ -2017,11 +2017,11 @@
     bottom: -10px;
     left: -50px;
     width: 1px;
-    background-color: #2c4a38;
+    background-color: #664a44;
 }
 
 .single-footer-widget-style4__text {
-    color: #9fb0a5;
+    color: #b3a19d;
     padding-top: 32px;
 }
 
@@ -2043,7 +2043,7 @@
     font-weight: 400;
     height: 54px;
     width: 100%;
-    background: #2c4a38;
+    background: #664a44;
     border: none;
     border-radius: 10px;
     outline: none;
@@ -2074,7 +2074,7 @@
     padding-left: 30px;
     margin-right: 0px;
     margin-bottom: 0;
-    color: #9fb0a5;
+    color: #b3a19d;
     font-size: 15px;
     line-height: 25px;
     font-weight: 400;
@@ -2096,7 +2096,7 @@
     border-radius: 5px;
     vertical-align: middle;
     background-color: transparent;
-    border: 1px solid #2c4a38;
+    border: 1px solid #664a44;
     cursor: pointer;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;

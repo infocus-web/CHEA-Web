@@ -5,23 +5,23 @@
 :root {
     --thm-primary-color: #A6CE39;
     --thm-primary-color-rgb: 166, 206, 57;
-    --thm-body-font-color: #4F5E55;
-    --thm-body-font-color-2: #9FB0A5;
-    --thm-body-font-color-3: #8FA196;
-    --thm-heading-font-color: #10231A;
-    --thm-black: #10231A;
-    --thm-black-rgb: 16, 35, 26;
-    --thm-black-bg: #1F3A2B;
-    --thm-black-bg-rgb: 31, 58, 43;
-    --thm-gray-bg: #EEF3EA;
-    --thm-gray-bg-rgb: 238, 243, 234;
-    --thm-gray-bg-2: #F3F7F0;
-    --thm-gray-bg-2-rgb: 243, 247, 240;
-    --thm-gray-bg-3: #E3EBDD;
-    --thm-gray-bg-3-rgb: 227, 235, 221;
-    --thm-border-color: #1F3A2B;
-    --thm-border-color-1: #DFE8D8;
-    --thm-border-color-2: #E2EADC;
+    --thm-body-font-color: #69594C;
+    --thm-body-font-color-2: #B3A19D;
+    --thm-body-font-color-3: #AB948E;
+    --thm-heading-font-color: #1A0E05;
+    --thm-black: #1A0E05;
+    --thm-black-rgb: 26, 14, 5;
+    --thm-black-bg: #4E342E;
+    --thm-black-bg-rgb: 78, 52, 46;
+    --thm-gray-bg: #F5F1E0;
+    --thm-gray-bg-rgb: 245, 241, 224;
+    --thm-gray-bg-2: #F7F3E5;
+    --thm-gray-bg-2-rgb: 247, 243, 229;
+    --thm-gray-bg-3: #EDE8D5;
+    --thm-gray-bg-3-rgb: 237, 232, 213;
+    --thm-border-color: #4E342E;
+    --thm-border-color-1: #EDE9D8;
+    --thm-border-color-2: #EFE6E5;
     --chea-demo-bar-h: 34px;
     --chea-ph-bg: #FFF4C2;
     --chea-ph-fg: #6B5300;
@@ -200,7 +200,7 @@ body {
 }
 
 .chea-footer-contact li {
-    color: #d7e4d9;
+    color: #e9e0d2;
 }
 
 .chea-footer-note {
@@ -211,7 +211,7 @@ body {
 /* ---------- Ajustes de secciones de la plantilla ---------- */
 /* Hero: el texto se lee sobre fondo verde oscuro */
 .main-slider-style1__inner .image-layer::before {
-    background: rgba(16, 35, 26, .35);
+    background: rgba(26, 14, 5, .35);
 }
 
 /* Contador: nota de cifras del grupo */
@@ -417,7 +417,7 @@ body {
     padding: 30px 28px;
     border-radius: var(--thm-border-radius);
     background: var(--thm-black-bg);
-    color: #d7e4d9;
+    color: #e9e0d2;
 }
 
 .chea-form-aside h3 {
@@ -461,3 +461,39 @@ body {
         height: auto;
     }
 }
+
+/* ===== Botón principal: una sola píldora con la flecha adentro ===== */
+.btn-one{
+  gap:12px;
+  padding:5px 22px 5px 5px;
+  border-radius:999px;
+  background-color:var(--thm-primary-color);
+  box-shadow:0 6px 16px -8px rgba(26,14,5,.55);
+  overflow:hidden;
+  transition:background-color .35s ease, box-shadow .35s ease, transform .2s ease;
+}
+.btn-one i{
+  width:42px;height:42px;font-size:20px;
+  background-color:var(--thm-black-bg);
+  color:var(--thm-primary-color);
+  transition:background-color .35s ease, color .35s ease;
+}
+.btn-one i::before{display:inline-block;transition:transform .35s ease}
+.btn-one i::after,
+.btn-one .txt::before,
+.btn-one .txt::after{display:none}
+.btn-one .txt{
+  padding:0;line-height:42px;border-radius:0;
+  background:none;color:var(--thm-black);
+  letter-spacing:.01em;
+}
+.btn-one:hover{
+  background-color:var(--thm-black-bg);
+  box-shadow:0 10px 22px -10px rgba(26,14,5,.7);
+}
+.btn-one:hover i{background-color:var(--thm-primary-color);color:var(--thm-black-bg)}
+.btn-one:hover i::before{transform:translateX(3px) rotate(-45deg)}
+.btn-one:hover .txt{color:#fff}
+.btn-one:active{transform:translateY(1px)}
+.btn-one:focus-visible{outline:3px solid #fff;outline-offset:3px;box-shadow:0 0 0 6px var(--thm-black-bg)}
+@media (prefers-reduced-motion:reduce){.btn-one,.btn-one i,.btn-one i::before{transition:none}}

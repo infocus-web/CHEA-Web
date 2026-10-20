@@ -56,7 +56,7 @@
 }
 
 .single-service-style1:hover .single-service-style1__content {
-    background-color: #e1e9da;
+    background-color: #e9e4d0;
 }
 
 .single-service-style1__content-round {
@@ -75,7 +75,7 @@
 }
 
 .single-service-style1:hover .single-service-style1__content-round {
-    background-color: #e1e9da;
+    background-color: #e9e4d0;
 }
 
 .single-service-style1__content-round-pattern {
@@ -709,7 +709,7 @@
 .sidebar-style1__services-list li {
     position: relative;
     display: block;
-    border-bottom: 2px dashed rgba(79, 94, 85, 0.2);
+    border-bottom: 2px dashed rgba(105, 89, 76, 0.2);
     padding-bottom: 17px;
     margin-bottom: 18px;
 }
@@ -764,7 +764,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    border-bottom: 2px dashed rgba(79, 94, 85, 0.2);
+    border-bottom: 2px dashed rgba(105, 89, 76, 0.2);
     padding-bottom: 17px;
     margin-bottom: 16px;
 }

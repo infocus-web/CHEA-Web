@@ -319,8 +319,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgb(31, 58, 43);
-    background: linear-gradient(180deg, rgba(31, 58, 43, 0) 0%, rgba(31, 58, 43, 0) 30%, rgba(31, 58, 43, 0.639093137254902) 62%, rgba(31, 58, 43, 1) 100%);
+    background: rgb(78, 52, 46);
+    background: linear-gradient(180deg, rgba(78, 52, 46, 0) 0%, rgba(78, 52, 46, 0) 30%, rgba(78, 52, 46, 0.639093137254902) 62%, rgba(78, 52, 46, 1) 100%);
     z-index: -1;
 }
 
@@ -332,8 +332,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgb(31, 58, 43);
-    background: linear-gradient(180deg, rgba(31, 58, 43, 0.8995973389355743) 0%, rgba(31, 58, 43, 0.9220063025210083) 5%, rgba(31, 58, 43, 0.639093137254902) 15%, rgba(31, 58, 43, 0) 100%);
+    background: rgb(78, 52, 46);
+    background: linear-gradient(180deg, rgba(78, 52, 46, 0.8995973389355743) 0%, rgba(78, 52, 46, 0.9220063025210083) 5%, rgba(78, 52, 46, 0.639093137254902) 15%, rgba(78, 52, 46, 0) 100%);
     z-index: -1;
 }
 
@@ -817,7 +817,7 @@
     width: 330px;
     padding: 27px 30px 27px;
     border-radius: 10px;
-    background-color: #d6e0cf;
+    background-color: #e1dcc7;
     margin-left: 530px;
 }
 
@@ -835,7 +835,7 @@
     width: 60px;
     height: 60px;
     background: var(--thm-black-bg);
-    border: 3px solid #d6e0cf;
+    border: 3px solid #e1dcc7;
     border-radius: 50%;
     z-index: 2;
 }
@@ -895,7 +895,7 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    border: 3px solid #d6e0cf;
+    border: 3px solid #e1dcc7;
     overflow: hidden;
 }
 
@@ -1055,7 +1055,7 @@
     background: -webkit-linear-gradient(0deg, #a6ce39 5%, #a6ce39 30%, #a6ce39 91%);
     -webkit-background-clip: text;
     -webkit-text-stroke: 15px transparent;
-    color: #10231a;
+    color: #1a0e05;
     text-transform: uppercase;
     letter-spacing: 0.07em;
 }
@@ -1127,7 +1127,7 @@
 .main-slider-style4 .content-box .text-box p {
     margin: 0;
     font-size: 20px;
-    color: #d6e0cf;
+    color: #e1dcc7;
     line-height: 30px;
 }
 
@@ -1317,7 +1317,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #9aa59d;
+    color: #a29f98;
     font-size: 18px;
     line-height: 1em;
     font-weight: 600;
