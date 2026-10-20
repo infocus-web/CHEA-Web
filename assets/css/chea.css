@@ -497,3 +497,6 @@ body {
 .btn-one:active{transform:translateY(1px)}
 .btn-one:focus-visible{outline:3px solid #fff;outline-offset:3px;box-shadow:0 0 0 6px var(--thm-black-bg)}
 @media (prefers-reduced-motion:reduce){.btn-one,.btn-one i,.btn-one i::before{transition:none}}
+
+/* ===== Sin pantalla de carga: la página aparece directo ===== */
+.loader-wrap{display:none !important}
