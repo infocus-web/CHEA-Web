@@ -1,17 +1,17 @@
 # Graph Report - chea-web-repo  (2026-10-20)
 
 ## Corpus Check
-- 22 files · ~340,329 words
+- 23 files · ~444,340 words
 - Verdict: corpus is large enough that graph structure adds value.
-- Unclassified: 38 file(s) not represented in the graph (top: .css 21, .eot 4, .ttf 4)
+- Unclassified: 39 file(s) not represented in the graph (top: .css 22, .eot 4, .ttf 4)
 
 ## Summary
-- 556 nodes · 1161 edges · 39 communities (23 shown, 16 thin omitted)
-- Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 90 edges (avg confidence: 0.85)
+- 559 nodes · 1163 edges · 40 communities (24 shown, 16 thin omitted)
+- Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 91 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e1ef29f5`
+- Built from commit: `dcb25a68`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -60,33 +60,33 @@
 10. `qe` - 15 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `y()` --indirect_call--> `h()`  [INFERRED]
+  assets/vendors/jarallax/jarallax.min.js → assets/vendors/bootstrap/js/bootstrap.bundle.min.js
+- `l()` --indirect_call--> `h()`  [INFERRED]
+  assets/vendors/aos/aos.js → assets/vendors/bootstrap/js/bootstrap.bundle.min.js
 - `y()` --indirect_call--> `S()`  [INFERRED]
   assets/vendors/gsap/SplitText.js → assets/vendors/bootstrap/js/bootstrap.bundle.min.js
 - `gd()` --indirect_call--> `rt()`  [INFERRED]
   assets/vendors/gsap/gsap.js → assets/vendors/bootstrap/js/bootstrap.bundle.min.js
 - `tb()` --indirect_call--> `rt()`  [INFERRED]
   assets/vendors/gsap/gsap.js → assets/vendors/bootstrap/js/bootstrap.bundle.min.js
-- `ub()` --indirect_call--> `rt()`  [INFERRED]
-  assets/vendors/gsap/gsap.js → assets/vendors/bootstrap/js/bootstrap.bundle.min.js
-- `xt()` --indirect_call--> `J()`  [INFERRED]
-  assets/vendors/bootstrap/js/bootstrap.bundle.min.js → assets/vendors/gsap/ScrollTrigger.js
 
 ## Import Cycles
 - None detected.
 
-## Communities (39 total, 16 thin omitted)
+## Communities (40 total, 16 thin omitted)
 
 ### Community 0 - "Be"
-Cohesion: 0.07
+Cohesion: 0.08
 Nodes (3): Be, Fe, trigger()
 
 ### Community 1 - "jquery-3.6.0.min.js"
 Cohesion: 0.08
-Nodes (32): A(), at(), b(), be(), ce(), e(), Ee(), fe() (+24 more)
+Nodes (31): A(), at(), b(), be(), ce(), e(), Ee(), fe() (+23 more)
 
 ### Community 2 - "remove"
-Cohesion: 0.07
-Nodes (6): I, j, Oe, P, qe, remove()
+Cohesion: 0.10
+Nodes (4): I, j, Oe, P
 
 ### Community 3 - "bootstrap.bundle.min.js"
 Cohesion: 0.13
@@ -95,6 +95,10 @@ Nodes (37): at(), bt(), C(), D(), dt(), ft(), getDataAttributes(), gt() (+29 mor
 ### Community 4 - "gsap.js"
 Cohesion: 0.07
 Nodes (18): ab(), Ad(), ae(), Bd(), Cd(), dd(), ga(), ha() (+10 more)
+
+### Community 5 - "ye"
+Cohesion: 0.08
+Nodes (4): qe, remove(), ye, Ke()
 
 ### Community 6 - "ScrollTrigger.js"
 Cohesion: 0.07
@@ -105,12 +109,12 @@ Cohesion: 0.12
 Nodes (14): nd(), ScrollTrigger(), k(), n(), o(), s(), SplitText(), t() (+6 more)
 
 ### Community 10 - "n"
-Cohesion: 0.33
-Nodes (18): a(), e(), i(), n(), c(), d(), f(), i() (+10 more)
+Cohesion: 0.31
+Nodes (19): a(), e(), i(), n(), c(), d(), f(), i() (+11 more)
 
 ### Community 11 - "swiper.min.js"
-Cohesion: 0.22
-Nodes (14): l(), h(), y(), a(), d(), e(), G(), H() (+6 more)
+Cohesion: 0.26
+Nodes (12): h(), a(), d(), e(), G(), H(), l(), n() (+4 more)
 
 ### Community 13 - "qc"
 Cohesion: 0.19
@@ -125,8 +129,8 @@ Cohesion: 0.21
 Nodes (12): ca(), $d(), ed(), Gb(), ia(), o(), od(), ra() (+4 more)
 
 ### Community 16 - "jarallax.min.js"
-Cohesion: 0.27
-Nodes (7): a(), c(), f(), l(), s(), u(), v()
+Cohesion: 0.24
+Nodes (8): a(), c(), f(), l(), s(), u(), v(), y()
 
 ### Community 17 - "Tween"
 Cohesion: 0.33
@@ -175,16 +179,16 @@ Nodes (4): Ia(), ib(), La(), Ma()
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `ie()` connect `bootstrap.bundle.min.js` to `jquery-3.6.0.min.js`, `gsap.js`?**
-  _High betweenness centrality (0.190) - this node is a cross-community bridge._
+  _High betweenness centrality (0.188) - this node is a cross-community bridge._
 - **Should `Be` be split into smaller, more focused modules?**
-  _Cohesion score 0.07402031930333818 - nodes in this community are weakly interconnected._
-- **Why does `h()` connect `swiper.min.js` to `Be`, `bootstrap.bundle.min.js`?**
-  _High betweenness centrality (0.160) - this node is a cross-community bridge._
+  _Cohesion score 0.07616892911010557 - nodes in this community are weakly interconnected._
+- **Why does `h()` connect `swiper.min.js` to `Be`, `jarallax.min.js`, `n`, `bootstrap.bundle.min.js`?**
+  _High betweenness centrality (0.158) - this node is a cross-community bridge._
 - **Should `jquery-3.6.0.min.js` be split into smaller, more focused modules?**
-  _Cohesion score 0.07568027210884354 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07955596669750231 - nodes in this community are weakly interconnected._
 - **Why does `xt()` connect `bootstrap.bundle.min.js` to `J`?**
-  _High betweenness centrality (0.143) - this node is a cross-community bridge._
+  _High betweenness centrality (0.142) - this node is a cross-community bridge._
 - **Should `remove` be split into smaller, more focused modules?**
-  _Cohesion score 0.07399577167019028 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.0960591133004926 - nodes in this community are weakly interconnected._
 - **Should `bootstrap.bundle.min.js` be split into smaller, more focused modules?**
   _Cohesion score 0.12846068660022147 - nodes in this community are weakly interconnected._
