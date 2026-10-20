@@ -1,0 +1,463 @@
+/* ==========================================================
+   CHEA S.A. – overrides sobre la plantilla (cargar al final)
+   ========================================================== */
+
+:root {
+    --thm-primary-color: #A6CE39;
+    --thm-primary-color-rgb: 166, 206, 57;
+    --thm-body-font-color: #4F5E55;
+    --thm-body-font-color-2: #9FB0A5;
+    --thm-body-font-color-3: #8FA196;
+    --thm-heading-font-color: #10231A;
+    --thm-black: #10231A;
+    --thm-black-rgb: 16, 35, 26;
+    --thm-black-bg: #1F3A2B;
+    --thm-black-bg-rgb: 31, 58, 43;
+    --thm-gray-bg: #EEF3EA;
+    --thm-gray-bg-rgb: 238, 243, 234;
+    --thm-gray-bg-2: #F3F7F0;
+    --thm-gray-bg-2-rgb: 243, 247, 240;
+    --thm-gray-bg-3: #E3EBDD;
+    --thm-gray-bg-3-rgb: 227, 235, 221;
+    --thm-border-color: #1F3A2B;
+    --thm-border-color-1: #DFE8D8;
+    --thm-border-color-2: #E2EADC;
+    --chea-demo-bar-h: 34px;
+    --chea-ph-bg: #FFF4C2;
+    --chea-ph-fg: #6B5300;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+/* ---------- Barra de prototipo ---------- */
+.chea-demo-bar {
+    position: relative;
+    z-index: 1000;
+    margin: 0;
+    padding: 7px 16px;
+    background: #FFE45C;
+    color: #2b2600;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* ---------- Wordmark provisorio ---------- */
+.chea-wordmark {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 6px;
+    padding: 4px 12px;
+    border: 2px dashed currentColor;
+    border-radius: 8px;
+    color: var(--thm-black-bg);
+    font-family: var(--thm-font-2);
+    font-size: 30px;
+    line-height: 1.1;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+}
+
+.chea-wordmark span {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--thm-body-font-color);
+}
+
+.chea-wordmark:hover {
+    color: var(--thm-black-bg);
+}
+
+.chea-wordmark--sticky,
+.chea-wordmark--footer,
+.chea-wordmark--mobile {
+    color: #ffffff;
+}
+
+.chea-wordmark--sticky span,
+.chea-wordmark--footer span,
+.chea-wordmark--mobile span {
+    color: var(--thm-primary-color);
+}
+
+.chea-wordmark--sticky:hover,
+.chea-wordmark--footer:hover,
+.chea-wordmark--mobile:hover {
+    color: #ffffff;
+}
+
+.chea-wordmark--sticky {
+    font-size: 24px;
+}
+
+.header-logo-box-style1 {
+    min-width: 170px;
+}
+
+.mobile-nav__content .logo-box {
+    margin-bottom: 30px;
+}
+
+/* ---------- Placeholders de datos ---------- */
+.chea-ph,
+.chea-year {
+    display: inline-block;
+    padding: 0 6px;
+    border-radius: 4px;
+    background: var(--chea-ph-bg);
+    color: var(--chea-ph-fg) !important;
+    font-style: normal;
+}
+
+.chea-ph-block {
+    padding: 16px 18px;
+    border: 2px dashed #E0C25A;
+    border-radius: 10px;
+    background: #FFFBE6;
+    color: #5c4a00 !important;
+}
+
+.chea-ph-btn {
+    display: inline-block;
+    font-size: 14px;
+    color: var(--thm-body-font-color);
+    font-style: italic;
+}
+
+.history-style1__img-experience-title h2.chea-year {
+    font-size: 30px;
+    line-height: 40px;
+    padding: 0 6px;
+}
+
+.mobile-nav__contact .chea-ph,
+.footer-style1 .chea-ph {
+    background: transparent;
+    color: #FFE45C !important;
+    padding: 0;
+}
+
+/* ---------- Iconos neutros (Font Awesome) dentro de cajas de la plantilla ---------- */
+.what-we-do-style1__content-icon i.fa,
+.what-we-do-style1__content-icon i.fab {
+    position: relative;
+    font-size: 40px;
+    line-height: 50px;
+    color: var(--thm-black-bg);
+}
+
+.single-fact-counter-style1__icon i {
+    font-size: 48px;
+    line-height: 60px;
+    color: var(--thm-black-bg);
+}
+
+.why-choose-style1__single-icon i {
+    font-size: 46px;
+    line-height: 60px;
+    color: var(--thm-black-bg);
+}
+
+.why-choose-style1__single-icon i.fab {
+    color: #25A244;
+}
+
+.single-products-style1__img-overlay-icon i.fa {
+    font-size: 30px;
+}
+
+.single-products-style1__img-overlay-icon i.fa::before {
+    color: var(--thm-primary-color);
+}
+
+.single-products-style1:hover .single-products-style1__img-overlay-icon i.fa::before {
+    color: var(--thm-black-bg);
+}
+
+.footer-widget-about-certification-logo.chea-cert-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    min-width: 70px;
+    border-radius: 50%;
+    border: 2px dashed rgba(166, 206, 57, .7);
+    color: var(--thm-primary-color);
+    font-size: 26px;
+}
+
+.footer-widget-useful-links ul li a i,
+.chea-footer-contact li i {
+    margin-right: 8px;
+    color: var(--thm-primary-color);
+}
+
+.chea-footer-contact li {
+    color: #d7e4d9;
+}
+
+.chea-footer-note {
+    margin-top: 10px;
+    opacity: .8;
+}
+
+/* ---------- Ajustes de secciones de la plantilla ---------- */
+/* Hero: el texto se lee sobre fondo verde oscuro */
+.main-slider-style1__inner .image-layer::before {
+    background: rgba(16, 35, 26, .35);
+}
+
+/* Contador: nota de cifras del grupo */
+.chea-fact-note {
+    position: relative;
+    margin-top: 18px;
+    text-align: center;
+    font-size: 14px;
+    color: var(--thm-body-font-color);
+}
+
+/* Do/Don't reconvertido en "Qué incluye" */
+.chea-dd-title {
+    position: relative;
+    margin: 0 0 10px;
+    padding-top: 6px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.chea-dd-title a {
+    color: var(--thm-black-bg);
+}
+
+.do-dont-style1__right-single-title h4 {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.chea-small-note {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+/* Pasos en páginas de servicio */
+.chea-step-title {
+    margin-top: 14px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.services-details__process-single {
+    margin-bottom: 30px;
+}
+
+.services-details__process-img img {
+    width: 100%;
+    height: auto;
+}
+
+/* Caja de llamada a la acción */
+.chea-cta-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 10px 0 50px;
+    padding: 30px;
+    border-radius: var(--thm-border-radius);
+    background: var(--thm-gray-bg);
+    border: 1px solid var(--thm-border-color-1);
+}
+
+.chea-cta-box h3 {
+    margin-bottom: 6px;
+    font-size: 24px;
+}
+
+.chea-cta-box p {
+    margin: 0;
+}
+
+.chea-other-service {
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.chea-other-service a {
+    color: var(--thm-black-bg);
+    text-decoration: underline;
+}
+
+/* Nosotros: contador del grupo */
+.chea-group-counter {
+    margin-top: 30px;
+}
+
+/* Contacto */
+.chea-form-msg {
+    margin: 20px 0 0;
+    padding: 14px 18px;
+    border-radius: 8px;
+    background: #E6F2D3;
+    border: 1px solid var(--thm-primary-color);
+    color: var(--thm-black-bg);
+    font-weight: 600;
+}
+
+#contact-form label.error {
+    color: #b42318;
+    font-size: 14px;
+}
+
+.location-info__single.chea-highlight {
+    box-shadow: 0 0 0 3px var(--thm-primary-color);
+    border-radius: var(--thm-border-radius);
+}
+
+#whatsapp,
+#formulario,
+#preguntas {
+    scroll-margin-top: 110px;
+}
+
+/* Menú móvil: botón */
+.mobile-nav__cta {
+    margin-top: 25px;
+}
+
+/* ---------- Botón flotante de WhatsApp ---------- */
+.chea-whatsapp-float {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 990;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #25D366;
+    color: #ffffff;
+    font-size: 30px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .25);
+    transition: transform .2s ease;
+}
+
+.chea-whatsapp-float:hover {
+    color: #ffffff;
+    transform: scale(1.06);
+}
+
+@media (max-width: 767px) {
+    .chea-demo-bar {
+        font-size: 12px;
+        line-height: 17px;
+        padding: 6px 12px;
+    }
+
+    .chea-wordmark {
+        font-size: 24px;
+    }
+
+    .chea-whatsapp-float {
+        right: 16px;
+        bottom: 16px;
+        width: 50px;
+        height: 50px;
+        font-size: 26px;
+    }
+
+    .chea-cta-box {
+        padding: 22px;
+    }
+}
+
+/* Volver arriba: por encima del botón de WhatsApp */
+.scroll-to-top {
+    bottom: 110px;
+}
+
+@media (max-width: 767px) {
+    .scroll-to-top {
+        right: 22px;
+        bottom: 90px;
+    }
+}
+
+/* Marca del ítem activo del menú: hoja en lugar de la espiga de trigo */
+.main-menu .main-menu__list>li>a::before,
+.stricky-header .main-menu__list>li>a::before {
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900;
+    content: "\f06c" !important;
+    font-size: 11px;
+}
+
+/* Nosotros: contador con dígitos en una línea */
+.history-style1__img-acres-fact h2,
+.odometer {
+    white-space: nowrap;
+}
+
+/* Contacto: columna lateral del formulario */
+.chea-form-aside {
+    position: relative;
+    height: 100%;
+    padding: 30px 28px;
+    border-radius: var(--thm-border-radius);
+    background: var(--thm-black-bg);
+    color: #d7e4d9;
+}
+
+.chea-form-aside h3 {
+    margin-bottom: 16px;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.chea-form-aside ol {
+    margin: 0 0 20px;
+    padding-left: 20px;
+}
+
+.chea-form-aside li {
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+
+.chea-form-aside strong {
+    color: #ffffff;
+}
+
+.chea-form-aside__mail a {
+    color: var(--thm-primary-color);
+    font-size: 15px;
+    overflow-wrap: anywhere;
+}
+
+.chea-form-aside__mail i {
+    color: var(--thm-primary-color);
+    margin-right: 6px;
+}
+
+#contact-form .btn-box button i {
+    margin-left: 6px;
+}
+
+@media (max-width: 991px) {
+    .chea-form-aside {
+        margin-top: 30px;
+        height: auto;
+    }
+}
