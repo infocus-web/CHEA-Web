@@ -1,0 +1,6 @@
+{
+  "redirects": [
+    { "source": "/minimalista", "destination": "/", "permanent": true },
+    { "source": "/minimalista/:path*", "destination": "/:path*", "permanent": true }
+  ]
+}
