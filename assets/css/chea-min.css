@@ -1434,3 +1434,7 @@ html.m-js .rv.is-in {
 
 /* Aire entre el título y la bajada del hero */
 .m-hero .m-hero__content .m-hero__sub{margin-top:28px}
+
+/* Formulario: campo trampa oculto y mensaje de error */
+.chea-hp{position:absolute!important;left:-9999px!important;width:1px;height:1px;overflow:hidden}
+.chea-form-msg.is-error{color:#A3322A}

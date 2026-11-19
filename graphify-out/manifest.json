@@ -1,626 +1,146 @@
 {
   ".claude/settings.json": {
-    "mtime": 1792465286.2666695,
-    "seen": 1792468545.7896872,
+    "mtime": 1795047377.80514,
+    "seen": 1795047495.2143292,
     "ast_hash": "cbaf2b3390ea3e622938b2e9c1c65eed",
     "semantic_hash": ""
   },
-  "assets/js/chea.js": {
-    "mtime": 1792468514.7814686,
-    "seen": 1792468545.7896945,
-    "ast_hash": "62c386c7d20c1bd83261dfc1b723c2d9",
-    "semantic_hash": ""
-  },
-  "assets/js/custom.js": {
-    "mtime": 1792468514.7816644,
-    "seen": 1792468545.7896976,
-    "ast_hash": "7ae1112fdcbd027f10b9f7782b72f6bb",
-    "semantic_hash": ""
-  },
-  "assets/vendors/aos/aos.js": {
-    "mtime": 1562836862.0,
-    "seen": 1792468545.7896993,
-    "ast_hash": "a01f9089e8301e9eacfb9d029dc0ca5c",
-    "semantic_hash": ""
-  },
-  "assets/vendors/bootstrap/js/bootstrap.bundle.min.js": {
-    "mtime": 1641875702.0,
-    "seen": 1792468545.7897005,
-    "ast_hash": "042c7b121492b284f48e2a815de85a7a",
-    "semantic_hash": ""
-  },
-  "assets/vendors/curved-text/jquery.circleType.js": {
-    "mtime": 1695572986.0,
-    "seen": 1792468545.789702,
-    "ast_hash": "166a48c628871b0d9c4fa4b0b8f89148",
-    "semantic_hash": ""
-  },
-  "assets/vendors/curved-text/jquery.fittext.js": {
-    "mtime": 1469733164.0,
-    "seen": 1792468545.7897031,
-    "ast_hash": "40635054e327b749517fbfc876906d27",
-    "semantic_hash": ""
-  },
-  "assets/vendors/curved-text/jquery.lettering.min.js": {
-    "mtime": 1695572998.0,
-    "seen": 1792468545.7897046,
-    "ast_hash": "83f6723631eeb52da3101b72b7624728",
-    "semantic_hash": ""
-  },
-  "assets/vendors/fontawesome/attribution.js": {
-    "mtime": 1641875704.0,
-    "seen": 1792468545.7897058,
-    "ast_hash": "0f56e0ee57191462dac2c13b7a89a3ad",
-    "semantic_hash": ""
-  },
-  "assets/vendors/gsap/ScrollTrigger.js": {
-    "mtime": 1681397100.0,
-    "seen": 1792468545.7897067,
-    "ast_hash": "fe0035bf95ea998c247100405a3156ff",
-    "semantic_hash": ""
-  },
-  "assets/vendors/gsap/SplitText.js": {
-    "mtime": 1681397110.0,
-    "seen": 1792468545.7897077,
-    "ast_hash": "d203e0f384f1ec120e487ce417d5347c",
-    "semantic_hash": ""
-  },
-  "assets/vendors/gsap/gsap.js": {
-    "mtime": 1681396932.0,
-    "seen": 1792468545.7897093,
-    "ast_hash": "bbc405241f9adee450ce6aa4bc2c721d",
-    "semantic_hash": ""
-  },
-  "assets/vendors/jarallax/jarallax.min.js": {
-    "mtime": 1641875708.0,
-    "seen": 1792468545.7897103,
-    "ast_hash": "7ab5d0553462c68698deead6fd45db14",
-    "semantic_hash": ""
-  },
-  "assets/vendors/jquery-appear/jquery.appear.min.js": {
-    "mtime": 1641875708.0,
-    "seen": 1792468545.7897115,
-    "ast_hash": "64531fe766285a4f78a602f316d52d48",
-    "semantic_hash": ""
-  },
-  "assets/vendors/jquery-validate/jquery.validate.min.js": {
-    "mtime": 1641875714.0,
-    "seen": 1792468545.7897124,
-    "ast_hash": "37393e7134311accfe3a8ca6e7e96038",
-    "semantic_hash": ""
-  },
-  "assets/vendors/jquery/jquery-3.6.0.min.js": {
-    "mtime": 1672049140.0,
-    "seen": 1792468545.7897131,
-    "ast_hash": "7b0e68dfbaec1b2543bbd8ab49bc0dcd",
-    "semantic_hash": ""
-  },
-  "assets/vendors/nice-select/jquery.nice-select.min.js": {
-    "mtime": 1623467330.0,
-    "seen": 1792468545.789714,
-    "ast_hash": "d13462ec489f9f0c309a811f85feb3d6",
-    "semantic_hash": ""
-  },
-  "assets/vendors/odometer/odometer.min.js": {
-    "mtime": 1641875716.0,
-    "seen": 1792468545.7897153,
-    "ast_hash": "07013b14ea1c5e30722ded722a1dfff2",
-    "semantic_hash": ""
-  },
-  "assets/vendors/swiper/swiper.min.js": {
-    "mtime": 1688475526.0,
-    "seen": 1792468545.7897162,
-    "ast_hash": "539f40424fab8dc943db801464aa0f3a",
-    "semantic_hash": ""
-  },
-  "assets/vendors/wow/wow.js": {
-    "mtime": 1641875722.0,
-    "seen": 1792468545.7897172,
-    "ast_hash": "11ac4d7173a68c50169addca2ef1b827",
-    "semantic_hash": ""
-  },
   "CLAUDE.md": {
-    "mtime": 1792465286.2663727,
-    "seen": 1792468545.7897186,
+    "mtime": 1795047377.8334267,
+    "seen": 1795047495.2143369,
     "ast_hash": "67d88e9d0760c3ba54c75dfd9551c1c5",
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1792465190.4644678,
-    "seen": 1792468545.7897193,
+    "mtime": 1795047377.84793,
+    "seen": 1795047495.2143378,
     "ast_hash": "15218768d45911ead3d8fc1549091756",
     "semantic_hash": ""
   },
-  "assets/vendors/fontawesome/LICENSE.txt": {
-    "mtime": 1641875704.0,
-    "seen": 1792468545.7897205,
-    "ast_hash": "6957234f7c170c187a9e39f89181b519",
-    "semantic_hash": ""
-  },
   "contacto/index.html": {
-    "mtime": 1792468383.1077065,
-    "seen": 1792468545.7897215,
-    "ast_hash": "26d5a61fc3849b68f010ca416f874dc3",
+    "mtime": 1795047472.2823136,
+    "seen": 1795047495.2143388,
+    "ast_hash": "096de290b1c7dc8a3d37469edce9f34c",
     "semantic_hash": ""
   },
   "espacios-verdes/index.html": {
-    "mtime": 1792468383.1062572,
-    "seen": 1792468545.789723,
-    "ast_hash": "63e432d9547891930b75edf9243bd931",
+    "mtime": 1795047472.1051373,
+    "seen": 1795047495.2143395,
+    "ast_hash": "038c0ecff8b3ae530c644b22b00aee5c",
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1792470026.8988476,
-    "seen": 1792471973.378196,
-    "ast_hash": "90f486a48b49b2916a97f94f6d1dd0e4",
+    "mtime": 1795047472.0951362,
+    "seen": 1795047495.2143407,
+    "ast_hash": "3099aea9386718442b33e82f12056fe5",
     "semantic_hash": ""
   },
   "limpieza/index.html": {
-    "mtime": 1792468383.1067953,
-    "seen": 1792468545.7897248,
-    "ast_hash": "967069d12197de85c56e910ea194185f",
+    "mtime": 1795047472.1661358,
+    "seen": 1795047495.2143416,
+    "ast_hash": "c134da26ac2e37629801f3ea847f95ab",
     "semantic_hash": ""
   },
   "nosotros/index.html": {
-    "mtime": 1792468383.107219,
-    "seen": 1792468545.789726,
-    "ast_hash": "f1ed5abffe278c62fab2bec36572f4a9",
-    "semantic_hash": ""
-  },
-  "assets/images/backgrounds/activities-v1-fact__bg.png": {
-    "mtime": 1792469165.4927406,
-    "seen": 1792471973.3782105,
-    "ast_hash": "b10cbb7e3490423c9290f2fc84e79c46",
-    "semantic_hash": ""
-  },
-  "assets/images/backgrounds/do-dont-v1__bg2.png": {
-    "mtime": 1792469165.6247408,
-    "seen": 1792471973.3782122,
-    "ast_hash": "b6b0a115e99f76ad98d0a54bfd9b3b85",
-    "semantic_hash": ""
-  },
-  "assets/images/backgrounds/history-v1__experience-bg.png": {
-    "mtime": 1792469165.6407406,
-    "seen": 1792471973.3782136,
-    "ast_hash": "297a99b19d1279e786f8859a13556950",
-    "semantic_hash": ""
-  },
-  "assets/images/backgrounds/what-we-do-v1__icon-bg.png": {
-    "mtime": 1792469165.6527407,
-    "seen": 1792471973.378215,
-    "ast_hash": "43eacab0708b96d4e38fb0c6afda9d02",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/about-home.jpg": {
-    "mtime": 1792469924.212786,
-    "seen": 1792471973.3782172,
-    "ast_hash": "47d3d3ccb4e11dd346e83cc4a4f6c2ad",
+    "mtime": 1795047472.2373185,
+    "seen": 1795047495.2143424,
+    "ast_hash": "efd9656709f525b5a3cea31af2a62bb6",
     "semantic_hash": ""
   },
   "assets/images/chea/bc-contacto.jpg": {
-    "mtime": 1792469933.7847865,
-    "seen": 1792471973.3782187,
+    "mtime": 1795047378.1191094,
+    "seen": 1795047495.214345,
     "ast_hash": "0d93aed64f652c9afd59f34087518443",
     "semantic_hash": ""
   },
   "assets/images/chea/bc-limpieza.jpg": {
-    "mtime": 1792469933.6847863,
-    "seen": 1792471973.3782203,
+    "mtime": 1795047378.131109,
+    "seen": 1795047495.2143457,
     "ast_hash": "40df0f91de936215fe8ac8c7fab9a8ed",
     "semantic_hash": ""
   },
   "assets/images/chea/bc-nosotros.jpg": {
-    "mtime": 1792469933.7367864,
-    "seen": 1792471973.378222,
+    "mtime": 1795047378.146079,
+    "seen": 1795047495.2143466,
     "ast_hash": "87aa1927cca4a5fbe2df41deb05fd0c6",
     "semantic_hash": ""
   },
   "assets/images/chea/bc-verde.jpg": {
-    "mtime": 1792469933.6247864,
-    "seen": 1792471973.3782237,
+    "mtime": 1795047378.1751168,
+    "seen": 1795047495.2143476,
     "ast_hash": "06104b1a963eb73d57f60f9c412c1943",
     "semantic_hash": ""
   },
-  "assets/images/chea/card-limpieza.jpg": {
-    "mtime": 1792469922.0607858,
-    "seen": 1792471973.3782248,
-    "ast_hash": "229d9ca79eed0865947c481826052a39",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/card-verde.jpg": {
-    "mtime": 1792469921.3167856,
-    "seen": 1792471973.3782268,
-    "ast_hash": "7e6501d26f2a2cf0168c81968493510b",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/card-visita.jpg": {
-    "mtime": 1792469923.4167857,
-    "seen": 1792471973.3782356,
-    "ast_hash": "e290fa8310038945f33ebd17e241ccdf",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/clientes.jpg": {
-    "mtime": 1792469927.804786,
-    "seen": 1792471973.3782387,
-    "ast_hash": "266c7fb3433f82a2e447027414ec8aae",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/contacto-1.jpg": {
-    "mtime": 1792469934.2727864,
-    "seen": 1792471973.3782408,
-    "ast_hash": "cc3930f9eb312b7ba8b483d970ceecfd",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/contacto-2.jpg": {
-    "mtime": 1792469934.3155718,
-    "seen": 1792471973.3782423,
-    "ast_hash": "bd88e37c1415ad75b71998c3f62726d1",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/contacto-3.jpg": {
-    "mtime": 1792469934.3367865,
-    "seen": 1792471973.3782437,
-    "ast_hash": "5118113a473d374497625224ea264f13",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/fact-bg.jpg": {
-    "mtime": 1792469924.5167859,
-    "seen": 1792471973.3782454,
-    "ast_hash": "1c57620950c0854f40e69178554beb9b",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/faq-home.jpg": {
-    "mtime": 1792469933.5447865,
-    "seen": 1792471973.3782473,
-    "ast_hash": "0f8c3f4c67e305b24239f71782077752",
-    "semantic_hash": ""
-  },
   "assets/images/chea/grupo.jpg": {
-    "mtime": 1792469934.1807864,
-    "seen": 1792471973.3782485,
+    "mtime": 1795047378.3001134,
+    "seen": 1795047495.2143486,
     "ast_hash": "5c87db138321142dbebd222cb786d823",
     "semantic_hash": ""
   },
   "assets/images/chea/hero-1.jpg": {
-    "mtime": 1792469918.6727855,
-    "seen": 1792471973.3782506,
+    "mtime": 1795047378.322114,
+    "seen": 1795047495.2143495,
     "ast_hash": "d441fb55c29a4408e6a414fbad3d23ec",
     "semantic_hash": ""
   },
-  "assets/images/chea/hero-2.jpg": {
-    "mtime": 1792469919.1127856,
-    "seen": 1792471973.3782518,
-    "ast_hash": "fa94be133195629d07a3dc321f211493",
-    "semantic_hash": ""
-  },
   "assets/images/chea/hero-3.jpg": {
-    "mtime": 1792469920.4567857,
-    "seen": 1792471973.3782535,
+    "mtime": 1795047378.3941436,
+    "seen": 1795047495.214351,
     "ast_hash": "88f40a90d3d85ca9cad8d31db84ee2d2",
     "semantic_hash": ""
   },
-  "assets/images/chea/incluye-bg.jpg": {
-    "mtime": 1792469928.836786,
-    "seen": 1792471973.3782551,
-    "ast_hash": "dc650f92fa3075f6dc9ea163be7aaeb9",
-    "semantic_hash": ""
-  },
   "assets/images/chea/limpieza-main.jpg": {
-    "mtime": 1792469933.8887863,
-    "seen": 1792471973.3782568,
+    "mtime": 1795047378.433849,
+    "seen": 1795047495.214352,
     "ast_hash": "9e17e1eb3969edae5e4a98097ef18924",
     "semantic_hash": ""
   },
   "assets/images/chea/nosotros-1.jpg": {
-    "mtime": 1792469934.1407864,
-    "seen": 1792471973.3782582,
+    "mtime": 1795047378.4415019,
+    "seen": 1795047495.2143528,
     "ast_hash": "fa6a263dd38011c75906c95cddd122de",
     "semantic_hash": ""
   },
-  "assets/images/chea/paso-1-limpieza.jpg": {
-    "mtime": 1792469934.0341284,
-    "seen": 1792471973.3782597,
-    "ast_hash": "1927ce5c06e541e57d0bef094acbafac",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/paso-1-verde.jpg": {
-    "mtime": 1792469933.9196832,
-    "seen": 1792471973.3782616,
-    "ast_hash": "1927ce5c06e541e57d0bef094acbafac",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/paso-2-limpieza.jpg": {
-    "mtime": 1792469934.0647864,
-    "seen": 1792471973.378263,
-    "ast_hash": "acf23a21334c27eec6c0a321add7d2c9",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/paso-2-verde.jpg": {
-    "mtime": 1792469933.9531252,
-    "seen": 1792471973.3782647,
-    "ast_hash": "acf23a21334c27eec6c0a321add7d2c9",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/paso-3-limpieza.jpg": {
-    "mtime": 1792469934.0891438,
-    "seen": 1792471973.3782663,
-    "ast_hash": "f40806fa497de6c1e08fead33b631471",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/paso-3-verde.jpg": {
-    "mtime": 1792469933.979666,
-    "seen": 1792471973.3782678,
-    "ast_hash": "101eaf0445f9416f074af58331ead97d",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/paso-4-limpieza.jpg": {
-    "mtime": 1792469934.1132705,
-    "seen": 1792471973.378269,
-    "ast_hash": "e09b72f86e80d30780a1741622be22fc",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/paso-4-verde.jpg": {
-    "mtime": 1792469934.0069926,
-    "seen": 1792471973.3782704,
-    "ast_hash": "abbfb3c7f3019e71f6e2a28f692ac442",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/pasos.jpg": {
-    "mtime": 1792469928.3087862,
-    "seen": 1792471973.3782718,
-    "ast_hash": "faf9f3782ec9664224dc6283cccbee3b",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/sidebar-bg.jpg": {
-    "mtime": 1792468596.4853826,
-    "seen": 1792471973.3782732,
-    "ast_hash": "bf0653844de672394160fcc34d6dba32",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/srv-ambos.jpg": {
-    "mtime": 1792469927.780786,
-    "seen": 1792471973.3782747,
-    "ast_hash": "bf0c2ce5ba1ac1a91927ac833f63d911",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/srv-limpieza.jpg": {
-    "mtime": 1792469926.696786,
-    "seen": 1792471973.378276,
-    "ast_hash": "bb26f984a7c70ac2c081bf4acd1ec248",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/srv-verde.jpg": {
-    "mtime": 1792469925.896786,
-    "seen": 1792471973.3782775,
-    "ast_hash": "01cb2ecc16a9530466742bd87e0a309c",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/trabajo-1.jpg": {
-    "mtime": 1792469928.8807862,
-    "seen": 1792471973.378279,
-    "ast_hash": "cd0025e83dc7afbaf6105551a84b942e",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/trabajo-2.jpg": {
-    "mtime": 1792469929.8847861,
-    "seen": 1792471973.3782802,
-    "ast_hash": "47d1e21efd6708679247c5c57c6f2321",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/trabajo-3.jpg": {
-    "mtime": 1792469930.766782,
-    "seen": 1792471973.3782818,
-    "ast_hash": "23be923904f4f3519ffff653fad9b4a9",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/trabajo-4.jpg": {
-    "mtime": 1792469931.7087862,
-    "seen": 1792471973.3782833,
-    "ast_hash": "0326226e8b88902d6081ebe0e2f5c1c5",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/trabajo-5.jpg": {
-    "mtime": 1792469932.1299136,
-    "seen": 1792471973.3782847,
-    "ast_hash": "61cd5dea3dd2a9eabf85abbf3bcafe12",
-    "semantic_hash": ""
-  },
   "assets/images/chea/verde-main.jpg": {
-    "mtime": 1792469933.8367865,
-    "seen": 1792471973.3782864,
+    "mtime": 1795047378.5829165,
+    "seen": 1795047495.214354,
     "ast_hash": "a48a6814c8394e189c735c4a7ab03472",
     "semantic_hash": ""
   },
-  "assets/images/chea/visita-bg.jpg": {
-    "mtime": 1792469934.3807864,
-    "seen": 1792471973.3782876,
-    "ast_hash": "5df1e2538c5ee4f1dacba2b16401ed6d",
-    "semantic_hash": ""
-  },
-  "assets/images/chea/zonas.jpg": {
-    "mtime": 1792469934.2327864,
-    "seen": 1792471973.3782892,
-    "ast_hash": "9525ce1eb25f80c9c9166059071c9a7d",
-    "semantic_hash": ""
-  },
   "assets/images/favicons/apple-touch-icon.png": {
-    "mtime": 1792468514.0890133,
-    "seen": 1792468545.7897768,
+    "mtime": 1795047378.6154938,
+    "seen": 1795047495.214355,
     "ast_hash": "717eb080e30bb1dd9a6f92566869d55d",
     "semantic_hash": ""
   },
   "assets/images/favicons/favicon-16x16.png": {
-    "mtime": 1792468514.1015193,
-    "seen": 1792468545.789778,
+    "mtime": 1795047378.6216114,
+    "seen": 1795047495.214356,
     "ast_hash": "22b5a2b95ac3fb03c2fe080edd0bedb0",
     "semantic_hash": ""
   },
   "assets/images/favicons/favicon-32x32.png": {
-    "mtime": 1792468514.0948813,
-    "seen": 1792468545.789779,
+    "mtime": 1795047378.6256106,
+    "seen": 1795047495.214357,
     "ast_hash": "50092f57b3678f65c58f4582d1a5c4ec",
     "semantic_hash": ""
   },
-  "assets/images/pattern/thm-pattern1.png": {
-    "mtime": 1792469165.7967408,
-    "seen": 1792471973.3782957,
-    "ast_hash": "a0d99d07a67366a2d04b7e1efcc00dc3",
-    "semantic_hash": ""
-  },
-  "assets/images/pattern/thm-pattern2.png": {
-    "mtime": 1792469165.8007407,
-    "seen": 1792471973.3782966,
-    "ast_hash": "2c5e0e3ec56045ff0d249fe0d73ac6ac",
-    "semantic_hash": ""
-  },
-  "assets/images/shapes/about-style5-shape-1.png": {
-    "mtime": 1792469165.8167408,
-    "seen": 1792471973.378298,
-    "ast_hash": "fc0d652591978a1a62c0029045937499",
-    "semantic_hash": ""
-  },
-  "assets/images/shapes/about-v1__shape3.png": {
-    "mtime": 1792469165.8287408,
-    "seen": 1792471973.3782995,
-    "ast_hash": "0b323eb4a3b02aa10e5f8802663b5719",
-    "semantic_hash": ""
-  },
-  "assets/images/shapes/about-v1__shape4.png": {
-    "mtime": 1792469165.8367407,
-    "seen": 1792471973.3783004,
-    "ast_hash": "3af3d064a7f8c788ab66ad82fa6edd70",
-    "semantic_hash": ""
-  },
-  "assets/images/shapes/about-v1__shape5.png": {
-    "mtime": 1792469165.8527408,
-    "seen": 1792471973.3783019,
-    "ast_hash": "b606d549b0b81de85cb92c1c07c5c13c",
-    "semantic_hash": ""
-  },
-  "assets/images/shapes/activities-v1-fact__shape1.png": {
-    "mtime": 1792469165.8596175,
-    "seen": 1792471973.3783035,
-    "ast_hash": "de8138af551d084b086772370c7d5c72",
-    "semantic_hash": ""
-  },
-  "assets/images/shapes/services-details__process-shape1.png": {
-    "mtime": 1792469165.8615322,
-    "seen": 1792471973.3783047,
-    "ast_hash": "489c468e445e8f421be50b5204c26566",
-    "semantic_hash": ""
-  },
-  "assets/images/shapes/services-details__process-shape2.png": {
-    "mtime": 1792469165.8631287,
-    "seen": 1792471973.3783062,
-    "ast_hash": "74b0671e3abeb18ec10b3d19b9fcb259",
-    "semantic_hash": ""
-  },
-  "assets/images/shapes/slider-v1__shape1.png": {
-    "mtime": 1792469165.8767407,
-    "seen": 1792471973.3783073,
-    "ast_hash": "7b2ef722878c0e96e2a9545dc5c5558f",
-    "semantic_hash": ""
-  },
-  "assets/images/shapes/slider-v1__shape2.png": {
-    "mtime": 1792469165.9007409,
-    "seen": 1792471973.3783085,
-    "ast_hash": "8fde0622409314d8ffc6b03547caa928",
-    "semantic_hash": ""
-  },
-  "assets/images/shapes/slider-v1__shape3.png": {
-    "mtime": 1792469165.9064937,
-    "seen": 1792471973.3783102,
-    "ast_hash": "af2fd8297687d76b6e94286dab59efb3",
-    "semantic_hash": ""
-  },
-  "assets/images/shapes/slider-v1__shape4.png": {
-    "mtime": 1792469165.9807408,
-    "seen": 1792471973.3783114,
-    "ast_hash": "6735ab3f11fc23d19be20a826ecc0529",
-    "semantic_hash": ""
-  },
-  "assets/images/shapes/why-choose-v1-shape1.png": {
-    "mtime": 1792469165.9847407,
-    "seen": 1792471973.3783126,
-    "ast_hash": "5a54f40fd357c9e8d44f5e18559782f5",
-    "semantic_hash": ""
-  },
-  "assets/images/shapes/why-choose-v1-shape2.png": {
-    "mtime": 1792469165.9927409,
-    "seen": 1792471973.3783143,
-    "ast_hash": "7469e95cc1a364d9966a305bd627d2fa",
-    "semantic_hash": ""
-  },
-  "assets/images/shapes/why-choose-v1-shape3.png": {
-    "mtime": 1792469166.0036473,
-    "seen": 1792471973.3783154,
-    "ast_hash": "38434d6bc7cfdacfbc7041e335863ece",
-    "semantic_hash": ""
-  },
-  "assets/images/shapes/why-choose-v1-shape4.png": {
-    "mtime": 1792469166.0047407,
-    "seen": 1792471973.3783166,
-    "ast_hash": "d92c5e0e28f06a9b9e697102190d9e4b",
-    "semantic_hash": ""
-  },
-  "assets/vendors/fontawesome/webfonts/fa-brands-400.svg": {
-    "mtime": 1641875706.0,
-    "seen": 1792468545.7897992,
-    "ast_hash": "bfd29c01b47b76d7b1c1411d5b57aa27",
-    "semantic_hash": ""
-  },
-  "assets/vendors/fontawesome/webfonts/fa-regular-400.svg": {
-    "mtime": 1641875706.0,
-    "seen": 1792468545.7898002,
-    "ast_hash": "519019089275671cad781bb9d0fa98bc",
-    "semantic_hash": ""
-  },
-  "assets/vendors/fontawesome/webfonts/fa-solid-900.svg": {
-    "mtime": 1641875706.0,
-    "seen": 1792468545.7898011,
-    "ast_hash": "62528c56ff6d27f22dd5c6c8c5bd3d20",
-    "semantic_hash": ""
-  },
-  "assets/vendors/thm-icons/fonts/icomoon.svg": {
-    "mtime": 1742181088.0,
-    "seen": 1792468545.7898023,
-    "ast_hash": "334c23750171feef117217e704f9f24e",
-    "semantic_hash": ""
-  },
   "assets/js/chea-min.js": {
-    "mtime": 1792471711.7797964,
-    "seen": 1792471973.3781123,
-    "ast_hash": "e90d61a754405c22e501f6382e40886f",
+    "mtime": 1795047461.291563,
+    "seen": 1795047495.2143352,
+    "ast_hash": "5552c8948a8c8df3cfcf679edfeb69cd",
     "semantic_hash": ""
   },
-  "minimalista/contacto/index.html": {
-    "mtime": 1792471898.9163718,
-    "seen": 1792471973.3782005,
-    "ast_hash": "8683baf5251bcec5c6aac492a768ce23",
+  "api/contacto.js": {
+    "mtime": 1795047451.0551336,
+    "seen": 1795047495.2143335,
+    "ast_hash": "21b3ffbf460a871450bcc9fd70a17e2c",
     "semantic_hash": ""
   },
-  "minimalista/espacios-verdes/index.html": {
-    "mtime": 1792471898.915298,
-    "seen": 1792471973.3782027,
-    "ast_hash": "57388afa1c7aa16833d9fd9f9dcffd82",
-    "semantic_hash": ""
-  },
-  "minimalista/index.html": {
-    "mtime": 1792471898.9148686,
-    "seen": 1792471973.3782039,
-    "ast_hash": "e76202e0155824754da1de44babafbfe",
-    "semantic_hash": ""
-  },
-  "minimalista/limpieza/index.html": {
-    "mtime": 1792471898.9155478,
-    "seen": 1792471973.3782055,
-    "ast_hash": "b65a1f5543b069969e6b8580b7b7a987",
-    "semantic_hash": ""
-  },
-  "minimalista/nosotros/index.html": {
-    "mtime": 1792471898.9158497,
-    "seen": 1792471973.3782067,
-    "ast_hash": "47604841c3fb095f194c051d66956ef2",
+  "robots.txt": {
+    "mtime": 1795047472.2874422,
+    "seen": 1795047495.2143433,
+    "ast_hash": "1cd65e8d28af91beb94a3d21f1f91aba",
     "semantic_hash": ""
   }
 }

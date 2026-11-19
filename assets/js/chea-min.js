@@ -146,10 +146,41 @@
         firstBad.focus();
         return;
       }
-      if (msg) {
-        msg.textContent = "Consulta lista para enviar. En el sitio publicado llega por correo a administracion@cheasa.com.ar.";
+      var btn = form.querySelector('button[type="submit"]');
+      var txt = btn ? btn.querySelector(".txt") : null;
+      var show = function (text, isError) {
+        if (!msg) return;
+        msg.textContent = text;
+        msg.classList.toggle("is-error", !!isError);
         msg.hidden = false;
-      }
+      };
+      var data = {};
+      Array.prototype.forEach.call(form.elements, function (el) {
+        if (el.name) data[el.name] = el.value;
+      });
+      if (btn) btn.disabled = true;
+      if (txt) txt.textContent = "Enviando…";
+      fetch("/api/contacto", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data)
+      })
+        .then(function (r) { return r.json().catch(function () { return {}; }).then(function (j) { return { ok: r.ok && j.ok }; }); })
+        .then(function (res) {
+          if (res.ok) {
+            form.reset();
+            show("¡Gracias! Recibimos su consulta y les respondemos a la brevedad.", false);
+          } else {
+            show("No pudimos enviar la consulta. Escríbannos a administracion@cheasa.com.ar.", true);
+          }
+        })
+        .catch(function () {
+          show("No pudimos enviar la consulta. Revisen la conexión o escríbannos a administracion@cheasa.com.ar.", true);
+        })
+        .then(function () {
+          if (btn) btn.disabled = false;
+          if (txt) txt.textContent = "Enviar consulta";
+        });
     });
   }
 })();
