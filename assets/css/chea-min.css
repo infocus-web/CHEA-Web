@@ -1438,3 +1438,11 @@ html.m-js .rv.is-in {
 /* Formulario: campo trampa oculto y mensaje de error */
 .chea-hp{position:absolute!important;left:-9999px!important;width:1px;height:1px;overflow:hidden}
 .chea-form-msg.is-error{color:#A3322A}
+
+/* Política de privacidad */
+.chea-legal{max-width:760px}
+.chea-legal h2{font-size:clamp(20px,2.2vw,24px);margin:40px 0 12px}
+.chea-legal p{margin:0 0 14px;line-height:1.7}
+.chea-legal a{text-decoration:underline;text-underline-offset:3px}
+.chea-form-privacy{margin-top:16px;font-size:14px}
+.chea-form-privacy a{text-decoration:underline;text-underline-offset:3px}

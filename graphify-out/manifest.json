@@ -18,33 +18,33 @@
     "semantic_hash": ""
   },
   "contacto/index.html": {
-    "mtime": 1795047472.2823136,
-    "seen": 1795047495.2143388,
-    "ast_hash": "096de290b1c7dc8a3d37469edce9f34c",
+    "mtime": 1795115898.4217517,
+    "seen": 1795115909.4099202,
+    "ast_hash": "d90f27a88bee609ad4702bb519484112",
     "semantic_hash": ""
   },
   "espacios-verdes/index.html": {
-    "mtime": 1795047472.1051373,
-    "seen": 1795047495.2143395,
-    "ast_hash": "038c0ecff8b3ae530c644b22b00aee5c",
+    "mtime": 1795115898.3851793,
+    "seen": 1795115909.4099212,
+    "ast_hash": "eff3924261fef281e89b5a542eff61e2",
     "semantic_hash": ""
   },
   "index.html": {
-    "mtime": 1795047472.0951362,
-    "seen": 1795047495.2143407,
-    "ast_hash": "3099aea9386718442b33e82f12056fe5",
+    "mtime": 1795115898.380882,
+    "seen": 1795115909.4099224,
+    "ast_hash": "83097a804fa640dcad9b4d090f1b16ea",
     "semantic_hash": ""
   },
   "limpieza/index.html": {
-    "mtime": 1795047472.1661358,
-    "seen": 1795047495.2143416,
-    "ast_hash": "c134da26ac2e37629801f3ea847f95ab",
+    "mtime": 1795115898.3881795,
+    "seen": 1795115909.4099236,
+    "ast_hash": "a829e7d139bea77577e62dacecf4b4f7",
     "semantic_hash": ""
   },
   "nosotros/index.html": {
-    "mtime": 1795047472.2373185,
-    "seen": 1795047495.2143424,
-    "ast_hash": "efd9656709f525b5a3cea31af2a62bb6",
+    "mtime": 1795115898.3911784,
+    "seen": 1795115909.4099243,
+    "ast_hash": "8323bfd9f822bf345b85b523b817f3e0",
     "semantic_hash": ""
   },
   "assets/images/chea/bc-contacto.jpg": {
@@ -141,6 +141,18 @@
     "mtime": 1795047472.2874422,
     "seen": 1795047495.2143433,
     "ast_hash": "1cd65e8d28af91beb94a3d21f1f91aba",
+    "semantic_hash": ""
+  },
+  "vercel.json": {
+    "mtime": 1795048901.2992547,
+    "seen": 1795115909.4099162,
+    "ast_hash": "4151b40ca4912dfd5a0b1bac12b86541",
+    "semantic_hash": ""
+  },
+  "privacidad/index.html": {
+    "mtime": 1795115898.4091814,
+    "seen": 1795115909.4099286,
+    "ast_hash": "d38e9745b9d14f37100d9947f61606a3",
     "semantic_hash": ""
   }
 }
